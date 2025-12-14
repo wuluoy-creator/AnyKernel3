@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=KernelSU by KernelSU Developers | Build by cctv18
+kernel.string=KernelSU by KernelSU Developers | Build by 你也好吧（nyhb)
 do.devicecheck=0
 do.modules=0
 do.systemless=0
@@ -39,7 +39,7 @@ case $kernel_version in
     *) ksu_supported=false ;;
 esac
 
-ui_print "内核构建者: Coolapk@cctv18"
+ui_print "内核构建者: Coolapk@你也好吧"
 ui_print " " "  -> ksu_supported: $ksu_supported"
 $ksu_supported || abort "  -> Non-GKI device, abort."
 
